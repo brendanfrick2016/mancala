@@ -251,11 +251,8 @@ class MancalaPlayer(Player):
     """ Defines a player that knows how to evaluate a Mancala gameboard
         intelligently """
     INFINITY = 1.0e400
-    PLY = 5
+    PLY = 6
 
-    HUMAN = 0
-    RANDOM = 1
-    MINIMAX = 2
     ABPRUNE = 3
     CUSTOM = 4
     
